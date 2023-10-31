@@ -5,9 +5,9 @@
     font-family: "Poppins", sans-serif;
 }
 body{
-    /* background: url("Mustibra.jpeg");
+    background: url("mustibrah.jpeg");
     background-size: cover;
-    background-position: center; */
+    background-position: center;
     height: 100%;
     width: 100%;
     display: flex;
@@ -156,7 +156,7 @@ main .container{
     font-weight: 600;
 }
 
-@keyframes changeBg {
+/*@keyframes changeBg {
     0%{
         background: url("mustibrah.jpg") no-repeat center/cover;
     }
@@ -222,4 +222,4 @@ main .container{
     }
 
     
-}
+}*/
