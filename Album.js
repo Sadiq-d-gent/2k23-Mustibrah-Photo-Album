@@ -42,7 +42,7 @@ const reviews = [
         igLink: "",
         whLink: "https//wa.me/+2348132694876",
         text:
-            `"Lorem ipsum dolor sit amet, consectetur adipisicing elit."`,
+            `"Get involved and make the difference. Have dreams to chase not people to impress"`,
 
     }, 
     {
