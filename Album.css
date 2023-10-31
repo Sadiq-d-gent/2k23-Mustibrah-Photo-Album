@@ -5,9 +5,10 @@
     font-family: "Poppins", sans-serif;
 }
 body{
-    background: url("mustibrah.jpeg") no-repeat;
+    background: url("mustibrah.jpg");
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     height: 100%;
     width: 100%;
     display: flex;
