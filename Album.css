@@ -1,0 +1,225 @@
+*{
+    padding: 0;
+    margin: 0;
+    transition: .3s;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: changeBg;
+    animation-duration: 150s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    overflow-x: hidden;
+}
+:root{
+    --useColor: blue;
+}
+main .container{
+    padding: 70px 30px;
+    width: 450px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container .title h2{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.container .title .underline{
+    content: "";
+    width: 120px;
+    height: 4px;
+    background-color: var(--useColor);
+    border-radius: 40px;
+}
+
+.review{
+    /* background: url("berge.jpeg");
+    background-size: cover;
+    background-position: center; */
+    background: transparent;
+    width: 400px;
+    margin-top: 35px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .5);
+    backdrop-filter: blur(15px);
+    
+}
+@media only screen and (max-width: 600px){
+    .review{
+        height: 400px;
+        width: 230px;
+    }
+}
+.review .img-container{
+    height: 100px;
+    width: 100px;
+    padding-right: 5px;
+    border-radius: 50%;
+    background: var(--useColor);
+    margin-bottom: 10px;
+}
+.review .img-container img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.img-container .quote{
+    position: absolute;
+    margin-top: 10px;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    background: var(--useColor);
+    border-radius: 50%;
+}
+.review #author{
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.review #job{
+    color: var(--useColor);
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+.review #info{
+    font-size: 14px;
+    line-height: 1.2rem;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+/* .review .whatsapp{
+    border: 2px solid var(--useColor);
+    border-radius: 8px;
+    background: var(--useColor);
+    padding: 2px;
+    margin: 10px;
+    width: 70px;
+    height: 35px;
+} */
+.socials{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.socials #instagram{
+    margin-left: 15px;
+}
+.socials #whatsapp{
+    margin-right: 15px;
+}
+.review .socials img{
+    margin-top: 22px;
+    width: 40px;
+    height: 40px;
+}
+.prev-btn{
+    margin-right: 10px;
+}
+.next-btn{
+    margin-left: 10px;
+}
+.prev-btn, .next-btn{
+    padding: 5px;
+    background: var(--useColor);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+    font-weight: 600;
+}
+
+@keyframes changeBg {
+    0%{
+        background: url("mustibrah.jpg") no-repeat center/cover;
+    }
+    5%{
+        background: url("Ma\'aji.jpg") no-repeat center/cover;
+    }
+    10%{
+        background: url("Mu\'awuyya.jpg") no-repeat center/cover;
+    }
+    15%{
+        background: url("fadimatu.jpg") no-repeat center/cover;
+    }
+    20%{
+        background: url("Ummusalma.jpg") no-repeat center/cover;
+    }
+    25%{
+        background: url("abulkasim.jpg") no-repeat center/cover;
+    }
+    30%{
+        background: url("Hafsat.jpg") no-repeat center/cover;
+    }
+    35%{
+        background: url("rukky.jpg") no-repeat center/cover;
+    }
+    40%{
+        background: url("zeedy.jpg") no-repeat center/cover;
+    }
+    45%{
+        background: url("ibro1.jpg") no-repeat center/cover;
+    }
+    50%{
+        background: url("eeman.jpg") no-repeat center/cover;
+    }
+    55%{
+        background: url("me3.jpg") no-repeat center/cover;
+    }
+    60%{
+        background: url("ma1.jpg") no-repeat center/cover;
+    }
+    65%{
+        background: url("babbah.jpg") no-repeat center/cover;
+    }
+    70%{
+        background: url("haj6.jpg") no-repeat center/cover;
+    }
+    75%{
+        background: url("haj5.jpg") no-repeat center/cover;
+    }
+    80%{
+        background: url("id2.jpg") no-repeat center/cover;
+    }
+    85%{
+        background: url("all4.jpg") no-repeat center/cover;
+    }
+    90%{
+        background: url("all8.jpg") no-repeat center/cover;
+    }
+    95%{
+        background: url("all9.jpg") no-repeat center/cover;
+    }
+    100%{
+        background: url("graduation.jpg") no-repeat center/cover;
+    }
+
+    
+}
