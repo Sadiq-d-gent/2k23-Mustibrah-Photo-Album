@@ -5,6 +5,9 @@
     font-family: "Poppins", sans-serif;
 }
 body{
+    /* background: url("Mustibra.jpeg");
+    background-size: cover;
+    background-position: center; */
     height: 100%;
     width: 100%;
     display: flex;
@@ -49,10 +52,7 @@ main .container{
     border-radius: 40px;
 }
 
-.review{
-    /* background: url("berge.jpeg");
-    background-size: cover;
-    background-position: center; */
+.review{
     background: transparent;
     width: 400px;
     margin-top: 35px;
