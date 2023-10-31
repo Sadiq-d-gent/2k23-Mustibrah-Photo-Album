@@ -171,9 +171,7 @@ const randomBtn = document.querySelector(".random-btn");
 
 let currentItem = 0;
 
-window.addEventListener("DOMContentLoaded", function(){
-    alert('We were once classmates!.\nThe purpose of creating this photo album website is not just for fun or to impress you guyz, but to keep our frienship alive till eternity. Regarding to this, some of our social media handle links are provided to enable easy-to-contact your friends, in case you lose their contact in the future. Does that sounds good to you? \nIf yes send your feedback to the UNIQUE SQUAD group and also rate the work in a scale of 1 - 100% \nAllah ya bar zumunci...(love you guyz) \nYours Sincerely \n@Sadiq Ahmad')
-    alert('Mind you !!! \nYour privacy is my source of integrity. Nobody outside the UNIQUE SQUAD will have access to your information, unless you share the link. ')
+window.addEventListener("DOMContentLoaded", function(){
     ShowPerson();
 });
 
