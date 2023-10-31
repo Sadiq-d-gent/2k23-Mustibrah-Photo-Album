@@ -1,17 +1,17 @@
 *{
     padding: 0;
     margin: 0;
-    transition: .3s;
+    transition: .7s;
     font-family: "Poppins", sans-serif;
 }
 body{
-    height: fit-content;
+    height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     animation-name: changeBg;
-    animation-duration: 150s;
+    animation-duration: 200s;
     animation-timing-function: ease-in;
     animation-delay: 1s;
     animation-iteration-count: infinite;
@@ -70,7 +70,7 @@ main .container{
 @media only screen and (max-width: 600px){
     .review{
         height: 400px;
-        width: 230px;
+        width: 260px;
     }
 }
 .review .img-container{
@@ -147,7 +147,7 @@ main .container{
     margin-left: 10px;
 }
 .prev-btn, .next-btn{
-    padding: 5px;
+    padding: 7px;
     background: var(--useColor);
     border-radius: 10px;
     border: none;
